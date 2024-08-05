@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>CRMApp</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IgniteUI.Blazor" Version="23.2.257" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Shared/Master_View.razor.css" CssScope="master_view-scope" />
+    <None Update="Pages/Master_View/Home.razor.css" CssScope="home-scope" />
+    <None Update="Pages/Master_View/Accounts.razor.css" CssScope="accounts-scope" />
+    <None Update="Pages/Master_View/Account_Sample.razor.css" CssScope="account_sample-scope" />
+    <None Update="Pages/Master_View/Contacts.razor.css" CssScope="contacts-scope" />
+    <None Update="Pages/Master_View/Contracts.razor.css" CssScope="contracts-scope" />
+    <None Update="Pages/Master_View/Reports.razor.css" CssScope="reports-scope" />
+    <None Update="Pages/Master_View/Calendar.razor.css" CssScope="calendar-scope" />
+    <None Update="Pages/Master_View/Tasks.razor.css" CssScope="tasks-scope" />
+    <None Update="Pages/Master_View_1.razor.css" CssScope="master_view_1-scope" />
+  </ItemGroup>
+</Project>
